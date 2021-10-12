@@ -200,7 +200,7 @@ Sets the innerHTML of the given DOM element to the provided value. This is usual
 Browser Support: IE, Chrome, Firefox
 ```markup
 usage: setInnerHTML	<attribute=value>	<value>
-example: setInnerHTML	contentEditable'true	%MSG%
+example: setInnerHTML	contentEditable=true	%MSG%
 
 <attribute=value> - DOM element to set the innerText of
 <value> - value to use
@@ -211,7 +211,7 @@ Sets the innerText of the given DOM element to the provided value. This is usual
 Browser Support: IE, Chrome, Firefox
 ```markup
 usage: setInnerText	<attribute=value>	<value>
-example: setInnerText	contentEditable'true	%MSG%
+example: setInnerText	contentEditable=true	%MSG%
 
 <attribute=value> - DOM element to set the innerText of
 <value> - value to use
